@@ -1,8 +1,7 @@
 import { View } from "react-native";
 
-import { Button } from "@/components/Button";
-
 import { Input } from "@/components/Input";
+import { Button } from "@/components/Button";
 import { PageHeader } from "@/components/PageHeader";
 import { CurrencyInput } from "@/components/CurrencyInput";
 

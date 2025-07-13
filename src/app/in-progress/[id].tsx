@@ -1,12 +1,12 @@
 import { View } from "react-native";
 import { router, useLocalSearchParams } from "expo-router";
 
+import { List } from "@/components/List";
 import { Button } from "@/components/Button";
 import { Progress } from "@/components/Progress";
 import { PageHeader } from "@/components/PageHeader";
 import { Transaction } from "@/components/Transaction";
 import { TransactionTypes } from "@/utils/TransactionTypes";
-import { List } from "@/components/List";
 
 const details = {
   current: "580,00",

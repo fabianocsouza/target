@@ -2,9 +2,11 @@ import { Text, View } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
 
 import { styles } from "./styles";
+
 import { colors } from "@/theme/colors";
 import { Separator } from "../Separator";
 import { Summary, type SummaryProps } from "../Summary";
+
 export type HomeHeaderProps = {
   total: string;
   input: SummaryProps;
@@ -34,7 +36,7 @@ export function HomeHeader({ data }: Props) {
         <Summary
           data={data.output}
           icon={{ name: "arrow-downward", color: colors.red[400] }}
-          isLeft={true}
+          isRight={true}
         />
       </View>
     </LinearGradient>

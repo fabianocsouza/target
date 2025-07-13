@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { View } from "react-native";
 import { useLocalSearchParams } from "expo-router";
 
@@ -6,7 +7,7 @@ import { Button } from "@/components/Button";
 import { PageHeader } from "@/components/PageHeader";
 import { CurrencyInput } from "@/components/CurrencyInput";
 import { TransactionType } from "@/components/TransactionType";
-import { useState } from "react";
+
 import { TransactionTypes } from "@/utils/TransactionTypes";
 
 export default function Transaction() {

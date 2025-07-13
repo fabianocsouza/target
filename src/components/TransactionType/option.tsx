@@ -7,6 +7,7 @@ import {
 import { MaterialIcons } from "@expo/vector-icons";
 
 import { styles } from "./styles";
+
 import { colors } from "@/theme";
 
 type Props = PressableProps & {

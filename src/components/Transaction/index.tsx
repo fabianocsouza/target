@@ -1,9 +1,11 @@
-import { Text, TouchableOpacity, View } from "react-native";
 import { MaterialIcons } from "@expo/vector-icons";
+import { Text, TouchableOpacity, View } from "react-native";
 
 import { styles } from "./styles";
-import { TransactionTypes } from "@/utils/TransactionTypes";
+
 import { colors } from "@/theme";
+
+import { TransactionTypes } from "@/utils/TransactionTypes";
 
 type TransactionProps = {
   id: string;

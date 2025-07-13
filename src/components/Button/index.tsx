@@ -2,11 +2,11 @@ import {
   ActivityIndicator,
   Text,
   TouchableOpacity,
-  View,
   type TouchableOpacityProps,
 } from "react-native";
 
 import { styles } from "./styles";
+
 import { colors } from "@/theme";
 
 type Props = TouchableOpacityProps & {

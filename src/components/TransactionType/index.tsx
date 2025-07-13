@@ -1,9 +1,10 @@
 import { View } from "react-native";
 
 import { styles } from "./styles";
-import { TransactionTypes } from "@/utils/TransactionTypes";
-import { Option } from "./option";
+
 import { colors } from "@/theme";
+import { Option } from "./option";
+import { TransactionTypes } from "@/utils/TransactionTypes";
 
 type Props = {
   selected: TransactionTypes;
